@@ -1,0 +1,4 @@
+<p>email works!</p>
+Enter email:
+<input [value]="email" type="text" (keyup.enter)="email=$event.target.value; onKeyUp()" />
+<!--<input [(ngmodel)] = "email" (keyup.enter)="onKeyUp()" />-->

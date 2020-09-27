@@ -1,0 +1,18 @@
+<p>ifelse works!</p>
+
+<input [value]="num" (keyup.enter)="num=$event.target.value; onKeyUp()"/>
+
+<div *ngIf="isOdd;then oddBlock else evenBlock">
+</div>
+
+<ng.template #oddBlock>
+    <div>
+        Input is ODD
+    </div>
+</ng.template>
+
+<ng.template #evenBlock>
+    <div>
+        Input is EVEN
+    </div>
+</ng.template>
