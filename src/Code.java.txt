@@ -1,0 +1,6 @@
+export default{
+sauce:function{
+alert("my website page");
+console("my webpage is now awesome");
+}
+}
